@@ -26,10 +26,11 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My two fields, and what I would do with them:
+# 1. In:the user's name and age, typed as text
+# 2. Process:put the name and age into one sentence with +
+# 3. Out:a sentence that says the user's name and age
+# 4. My two fields, and what I would do with them:name and age. In a marketing job
+#    I would use them in a customer sign-up form to greet the customer and group them by age for targeted ads.
 
 
 # Your code below

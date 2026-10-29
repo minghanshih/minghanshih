@@ -104,3 +104,21 @@ def ask_name():
 ```
 
 What does `input()` always return?
+
+---
+## 2026-10-29 10:03, in .
+
+**Me:** In Python, how do I turn input() into a number?
+
+**Tutor:**
+
+Converting a string from input() into a number.
+
+```python
+# TODO: change the string from input() into an integer
+user_input = input("Enter a whole number: ")
+number = # TODO
+print("You entered:", number)
+```
+
+What function do you call on the string to turn it into an integer?
