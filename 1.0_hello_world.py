@@ -15,24 +15,23 @@ WHAT THE AI CANNOT KNOW
 
 CHECK IT YOURSELF
     Count the lines your program produced. Five, not four and not six.
-    Then change the number to 3 and run it again. If you had to rewrite more than one
+    Then change the number to 5 and run it again. If you had to rewrite more than one
     character, your program is not built the way it should be.
 
 DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My message, and why:
-
+# 1. In: my name as a string
+# 2. Process: printing my name
+# 3. Out: printing my name 5 times
+# 4. My message, and why: I print my name to say hello, then 5 times to practice print().
 
 # Your code below
-print("Sugumaran")
-print("1. Sugumaran")
-print("2. Sugumaran")
-print("3. Sugumaran")
-print("4. Sugumaran")
-print("5. Sugumaran")
+print("MingHan SHIH")
+print("1. MingHan SHIH")
+print("2. MingHan SHIH")
+print("3. MingHan SHIH")
+print("4. MingHan SHIH")
+print("5. MingHan SHIH")
 

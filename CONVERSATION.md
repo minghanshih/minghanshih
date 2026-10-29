@@ -35,3 +35,19 @@ print()
 ```
 
 What is the first argument of the `print()` function?
+
+---
+## 2026-10-29 09:37, in .
+
+**Me:** give me an example of printing 5 times in python
+
+**Tutor:**
+
+Printing a fixed number of times uses a loop.
+
+```python
+for i in range(5):
+    print("Hello")
+```
+
+What does `range(5)` produce?
