@@ -24,10 +24,34 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My four transformations, and when each is useful:
+# 1. In: a sentence typed by the user
+# 2. Process: Transform the sentence in four different ways
+# 3. Out: The four transformed sentences
+# 4. My four transformations, and when each is useful: 
+#    strip(): remove extra spaces when cleaning data from a form
+#    upper(): make a headline or a banner stand out
+#    title(): format a product name or an article title 
+#    replace(" ", "-"): build a URL from a title
 
 
 # Your code below
+# Ask the user for a sentence
+sentence = input("Type a sentence: ")
+
+# Remove extra spaces at both ends of the sentence
+print(sentence.strip())
+
+# Capital letter for all letters
+print(sentence.upper())
+
+# Capital letter at the start of each word
+print(sentence.title())
+
+# Replace spaces with dashes
+print(sentence.replace(" ", "-"))
+
+# CHECK IT YOURSELF (input:"   hello World   ")
+# strip():"hello World" - expected, space removed
+# upper():"   HELLO WORLD   " - expected, all letters capitalized, but the spaces at the ends are still there
+# title():"   Hello World   " - expected, first letter of each word capitalized, spaces still there
+# replace(" ", "-"):"---hello-World---" - not expected, the spaces at the ends also became dashes
