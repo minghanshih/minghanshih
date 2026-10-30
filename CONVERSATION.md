@@ -244,3 +244,61 @@ def is_even(n):
 ```
 
 What must the argument to the modulus operator be to test evenness?
+
+---
+## 2026-10-30 12:45, in .
+
+**Me:** In Python, how do I compute the average of a list?
+
+**Tutor:**
+
+Computing an average with Python’s built-in tools.
+
+```python
+def average(numbers):
+    # TODO: return the mean of the list `numbers`
+    pass
+
+# Example
+toy = [2, 4, 6]
+print(average(toy))  # should print 4.0
+```
+
+What built-in function gives the sum of the list?
+
+---
+## 2026-10-30 12:47, in .
+
+**Me:** In Python, how do I sort a list without changing the original?
+
+**Tutor:**
+
+Sorting a list without changing the original list is called creating a sorted copy.
+
+```python
+original = [3, 1, 4, 2]
+
+# TODO: create a new sorted list without changing original
+sorted_copy = sorted(original)
+```
+
+What function returns a new sorted list from any iterable?
+
+---
+## 2026-10-30 12:50, in .
+
+**Me:** In Python, how do I get a value from a dictionary safely?
+
+**Tutor:**
+
+Getting a value from a dictionary safely means avoiding KeyError when the key might be missing.
+
+Use the dict.get(key, default) method.
+
+```python
+# TODO: replace 'fruit' with your real key
+stock = {"apple": 2, "banana": 5}
+quantity = stock.get("fruit", 0)  # returns 0 if "fruit" is missing
+```
+
+What is the second argument of dict.get called?
