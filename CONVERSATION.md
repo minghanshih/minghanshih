@@ -191,3 +191,56 @@ upper_text = text.upper()  # TODO: What does the .upper() method return?
 ```
 
 Question: Which method converts a string to uppercase?
+
+---
+## 2026-10-30 12:35, in .
+
+**Me:** In Python, how do I divide two numbers?
+
+**Tutor:**
+
+Dividing two numbers in Python.
+
+```python
+# Simple division
+result = 10 / 3
+print(result)  # TODO: What is the output?
+```
+
+Question: Which operator performs division in Python?
+
+---
+## 2026-10-30 12:35, in .
+
+**Me:** In Python, how do I avoid dividing by zero?
+
+**Tutor:**
+
+Dividing by zero is prevented by checking the denominator before division.
+
+```python
+def safe_divide(numerator, denominator):
+    if denominator == 0:
+        return None  # or 0, or float('inf'), depending on your use-case
+    return numerator / denominator
+```
+
+What is the return value of `safe_divide(10, 0)`?
+
+---
+## 2026-10-30 12:38, in .
+
+**Me:** In Python, how do I check if a number is even?
+
+**Tutor:**
+
+Checking if a number is even
+Use the modulus operator % to test whether the remainder of division by 2 is zero.
+
+```python
+def is_even(n):
+    # TODO: return True if n is even, else False
+    return n % 2 == 0
+```
+
+What must the argument to the modulus operator be to test evenness?
