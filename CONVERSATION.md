@@ -302,3 +302,41 @@ quantity = stock.get("fruit", 0)  # returns 0 if "fruit" is missing
 ```
 
 What is the second argument of dict.get called?
+
+---
+## 2026-10-30 13:04, in .
+
+**Me:** In Python, how do I loop over a list with the position of each item?
+
+**Tutor:**
+
+Looping with position is called enumeration.
+
+```python
+items = ["apple", "banana", "cherry"]
+
+for position, value in enumerate(items):
+    print(f"At position {position} we have {value}")
+```
+
+What does enumerate return on each iteration?
+
+---
+## 2026-10-30 13:05, in .
+
+**Me:** In Python, how do I stop a while loop after 3 attempts?
+
+**Tutor:**
+
+Concept: Using a counter to limit the number of attempts in a while loop.
+
+```python
+attempts = 0
+max_attempts = 3
+
+while attempts < max_attempts:
+    # TODO: Your code here
+    attempts += 1
+```
+
+Question: Which operator compares the current number of attempts to the maximum allowed?
