@@ -603,3 +603,126 @@ def square(x):
 What is the name of the technique shown above?
 
 *Cut by the tutor: One function per answer. The next one is yours to write.*
+
+---
+## 2026-11-04 09:43, in .
+
+**Me:** In Python, how do I add a row to a CSV file without deleting the old rows?
+
+**Tutor:**
+
+Appending a row to an existing CSV file.
+
+```python
+import csv
+
+# Open the file in append mode ('a')
+with open('data.csv', 'a', newline='') as file:
+    writer = csv.writer(file)
+    # TODO: Add your new row here as a list
+    new_row = ['alpha', 12.5, 3]
+    writer.writerow(new_row)
+```
+
+What must the argument to csv.writer be?
+
+---
+## 2026-11-04 09:44, in .
+
+**Me:** In Python, how do I check if a file already exists before writing to it?
+
+**Tutor:**
+
+Checking whether a file exists before writing is called existence checking.
+
+```python
+import os
+
+def file_exists(path):
+    # TODO: return True if the file at `path` exists, else False
+    pass
+```
+
+What does the `os.path.exists()` function expect as its argument?
+
+---
+## 2026-11-04 09:45, in .
+
+**Me:** In Python, how do I write a CSV file with semicolons instead of commas?
+
+**Tutor:**
+
+Writing a CSV with a custom delimiter.
+
+```python
+import csv
+
+def write_semicolon_csv(filename):
+    rows = [
+        ["name", "value"],  # header
+        ["alpha", 10],
+        ["beta", 20]
+    ]
+    with open(filename, "w", newline="") as f:
+        writer = csv.writer(f, delimiter=";")
+        writer.writerows(rows)
+```
+
+Which argument of csv.writer controls the delimiter?
+
+---
+## 2026-11-04 09:47, in .
+
+**Me:** In Python, how do I turn 12,50 with a comma into a float?
+
+**Tutor:**
+
+Replacing a comma with a dot and converting to float.
+
+```python
+price = "12,50"
+clean_price = price.replace(",", ".")  # TODO: what does replace return?
+float_price = float(clean_price)       # TODO: which function converts to float?
+```
+
+Which function takes the cleaned string and returns the float?
+
+---
+## 2026-11-04 09:55, in .
+
+**Me:** In Python, how do I add a row to a CSV file without deleting the old rows?
+
+**Tutor:**
+
+Appending a row to an existing CSV file.
+
+```python
+import csv
+
+# open the file in append mode ('a')
+with open('data.csv', 'a', newline='') as f:
+    writer = csv.writer(f)
+    # TODO: write one row of data
+    writer.writerow([ ... ])
+```
+
+Which argument tells csv.writer where to write the new row?
+
+---
+## 2026-11-04 10:10, in .
+
+**Me:** In Python, my text file has empty lines, spaces at the start, and names in mixed caps like 'ada LOVELACE'. How do I clean each line?
+
+**Tutor:**
+
+Cleaning text lines with empty lines, leading spaces, and inconsistent capitalisation.
+
+```python
+def clean_line(line: str) -> str:
+    # TODO: remove leading/trailing whitespace
+    # TODO: skip empty lines
+    # TODO: convert to lowercase and capitalise first letter only
+    return cleaned_line
+```
+
+What does the `strip()` method remove from a string?

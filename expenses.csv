@@ -1,0 +1,4 @@
+date;category;amount_eur;payment_method
+2026-11-04;food;12.5;card
+2026-11-01;rent;650.0;card
+2026-11-02;transport;2.15;cash
