@@ -561,3 +561,45 @@ with open('data.csv', newline='') as csvfile:
 ```
 
 What is the name of the argument that sets the delimiter in csv.reader?
+
+---
+## 2026-11-04 09:17, in .
+
+**Me:** In Python, what is the difference between return and print in a function?
+
+**Tutor:**
+
+**Return vs Print in a function**
+`return` sends a value back to the caller so it can be used later; `print` displays text on screen but does not give the value to the caller.
+
+```python
+def add(a, b):
+    total = a + b
+    # TODO: decide whether to return or print
+    return total   # or: print(total)
+
+result = add(3, 4)
+print("The result is", result)
+```
+
+What does the caller receive when the function uses `return`?
+
+---
+## 2026-11-04 09:27, in .
+
+**Me:** In Python, how do I call a function inside another function?
+
+**Tutor:**
+
+Nesting a function call inside another function is called **function composition**.
+
+```python
+def square(x):
+    return x * x
+
+# --- cut by the tutor: One function per answer. The next one is yours to write ---
+```
+
+What is the name of the technique shown above?
+
+*Cut by the tutor: One function per answer. The next one is yours to write.*
